@@ -210,3 +210,35 @@ body{
 .fa-check{
     color: #0061FF;
 }
+
+/*Main center*/
+
+.structure{
+    border: 1px solid lightgray;
+    margin-top: 50px;
+    width: 100%;
+    position: relative;
+}
+
+.structure h3{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.structure h5{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.structure p{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.button-position{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
