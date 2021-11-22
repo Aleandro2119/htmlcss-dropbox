@@ -212,7 +212,7 @@ body{
 }
 
 /*Main center*/
-
+/*First section*/
 .structure{
     border: 1px solid lightgray;
     margin-top: 50px;
@@ -241,4 +241,33 @@ body{
     position: absolute;
     top: 20px;
     right: 20px;
+}
+
+/*Second section*/
+
+.img-form{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.text-position{
+    margin-left: 40px;
+}
+
+.text-position h2{
+    font-size: 26px;
+}
+
+.text-position p{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.btn.btn-white{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 30px;
+
 }
