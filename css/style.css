@@ -1,0 +1,77 @@
+/*General*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.clearfix::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+
+
+/*Utils*/
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.col{
+    float: left;
+}
+
+
+.w-50{
+    width: 50%;
+}
+
+/*HEADER*/
+/*Header-top*/
+.header-top{
+    height: 80px;
+    line-height: 80px;
+}
+
+#logo{
+    vertical-align: middle;
+}
+
+.menu-left{
+    display: inline-block;
+}
+
+.menu-left li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 20px;
+    vertical-align: middle;
+}
+
+.menu-left a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.btn{
+    padding: 5px 15px;
+    background-color: #0061FF;
+    color: white;
+    border: transparent;
+}
+
+.position{
+    position: relative;
+}
+
+.position-right{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
