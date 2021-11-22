@@ -22,6 +22,11 @@ body{
     margin: 0 auto;
 }
 
+.container-main{
+    width: 1000px;
+    margin: 0 auto;
+}
+
 .col{
     float: left;
 }
@@ -37,6 +42,15 @@ body{
 
 .w-60{
     width: 60%;
+}
+
+.w-33{
+    width: calc(100% / 3 - 40px);
+    height: 900px;
+} 
+
+.col.w-33:nth-child(3n + 2){
+    margin: 0 60px;
 }
 
 /*HEADER*/
@@ -72,6 +86,11 @@ body{
     background-color: #0061FF;
     color: white;
     border: transparent;
+}
+
+.btn.btn-size{
+    padding: 10px 35px ;
+    margin-top: 30px;
 }
 
 .position{
@@ -112,4 +131,82 @@ body{
    position: relative;
    top: 40px;
    left: 0;
+}
+
+.fa-arrow-down{
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+
+/*MAIN*/
+/*Section col*/
+.main-top h2{
+    margin-top: 120px;
+    font-size: 40px;
+}
+
+.radio-item{
+    margin-top: 35px;
+}
+
+.price{
+    margin-top: 30px;
+
+}
+
+.price .col{
+    border: 1px solid lightgray;
+}
+
+.text-border{
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    padding: 5px 10px;
+}
+
+.col-price{
+    margin-left: 30px;
+}
+
+.col-price h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.col-price .text-price{
+    font-size: 16px;
+}
+
+.col-price .text-color{
+    color: gray;
+    font-size: 14px;
+}
+
+.col-price ul{
+    margin-top: 40px;
+}
+
+.col-price li{
+    list-style-type: none;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.col-price a{
+    color: #0061FF; 
+}
+
+.col-price hr{
+    width: 50px;
+}
+
+.col-price h4{
+    margin-top: 40px;
+}
+
+.fa-check{
+    color: #0061FF;
 }
