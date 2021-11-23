@@ -408,3 +408,48 @@ span{
     text-decoration: none;
     margin-left: 50px;
 }
+
+/*Main bottom*/
+.bg-blu{
+    background-color: #B4D0E7;
+    height: 300px;
+    margin-bottom: 100px ;
+}
+
+.designed-text{
+    position: relative;
+}
+
+.designed-text h2{
+    font-size: 30px;
+    color: #61082B;
+    line-height: 300px
+}
+
+.designed-text .btn.btn.btn-white{
+    border: 1px solid white;
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    padding: 5px 35px;
+}
+
+/*Question*/
+.question h2{
+    font-size: 26px;
+    margin-bottom: 50px;
+}
+
+.question p{
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.question p::after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f107";
+    text-align: center;
+    margin-left: 280px;
+}
