@@ -301,3 +301,110 @@ body{
 span{
     text-decoration: underline;
 }
+
+/*Title*/
+.title-main-bottom h2{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-size: 28px;
+}
+
+.title-main-bottom a{
+    color: #0061FF;
+}
+
+/*Blocks*/
+/*Utilitis*/
+.bg-lightgreen{
+    background-color: #A2D39B;
+}
+
+.bg-bordeaux{
+    background-color: #61082B;
+}
+
+.bg-lightblue{
+    background-color: #0093CE;
+}
+
+.bg-lightred{
+    background-color: #FF1C1C;
+}
+
+.bg-darkred{
+    background-color: #D5001F;
+}
+
+.bg-heavenly{
+    background-color: #B4D0E7;
+}
+
+.bg-blue{
+    background-color: #0D2481;
+}
+
+.bg-yellow{
+    background-color: #FFD830;
+}
+
+.bg-sand{
+    background-color: #F5F5F5;
+}
+
+/*Three blocks*/
+/*Left and right blocks*/
+.square{
+    margin-top: 50px ;
+}
+
+.block{
+    float: left;
+    height: 400px;
+}
+
+.w-30{
+    width: 30%;
+}
+
+.w-40{
+    width: 40%;
+}
+
+.quadrate{
+    float: left;
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
+
+.quadrate img{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
+}
+
+/*Central block*/
+.form-img{
+    width: 25%;
+    height: 25%; 
+    margin-top: 50px;
+    margin-left: 50px;  
+}
+
+.ring p{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.ring span{
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 50px;
+}
